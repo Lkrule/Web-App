@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <title>Anomaly Detection Server</title>
+</head>
+
+<body class="body-page">
+<h1 class="title"> ANOMALY DETECTION SERVER</h1>
+<form action="/detect" method="post" enctype="multipart/form-data" name="searchForm" target="result">
+  <table>
+    <tr>
+      <td><input type="file" name="train_data" class="reg-button" accept=".csv" required></td>
+      <td>Upload a regular CSV File</td>
+    </tr>
+    <tr>
+      <td><input type="file" class="anamButton"  name="test_data"  accept =".csv" required></td>
+      <td>Upload an anomalous CSV File</td>
+    </tr>
+    <tr>
+      <label for="algoList"></label>
+      <select name="model_type" class="List" id="algoList" style="background-color: rgba(78,109,182,100);  border-radius:50px;" required>
+        <option value=""> Choose an algorithm</option>
+        <option value="reg"> Linear Anomaly Detector</option>
+        <option value="hybrid"> Hybrid Anomaly Detector</option>
+      </select>
+    </tr>
+  </table>
+  <input class="upButton" type="submit" name="uploadButton" value="Upload" onclick="" >
+  <hr class="hr">
+</form>
+<br/>
+<br>
+<iframe class="frame" name="result" width="1000" height="472" ></iframe>
+<div id="root"></div>
+
+</body>
+
+</html>

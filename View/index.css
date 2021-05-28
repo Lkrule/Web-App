@@ -1,0 +1,53 @@
+
+.frame {
+    border: none;
+    margin-left: 250px;
+}
+
+.body-page {
+    background-image: linear-gradient(#4e6db6, white);
+    margin-left: 270px;
+}
+
+.upButton{
+    font-family: Garamond, serif;
+    border-radius: 4px;
+    background-color: rgba(78, 109, 182, 100);
+    border: black;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    width: 130px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 600px;
+}
+
+.reg-button{
+    font-family: Garamond, serif;
+    font-size: large;
+    margin-left:410px;
+}
+.anamButton{
+    font-family: Garamond, serif;
+    font-size: large;
+    margin-left:410px;
+}
+
+.title {
+    margin-left: 410px;
+    font-family: Garamond, serif;
+    text-shadow: 2px 2px 5px #4e6db6;
+    font-weight: bold;
+}
+.List{
+    font-size: large;
+    margin-left:550px;
+}
+.hr{
+    size: 500px;
+    margin-right:200px;
+    border-color: #4e6db6;
+}
