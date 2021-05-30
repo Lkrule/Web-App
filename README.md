@@ -54,4 +54,4 @@ in case you dragged the wrong file, click on the little cube inside the file box
 <img src = "https://user-images.githubusercontent.com/58342591/120107993-e0ac9400-c16b-11eb-81b6-c0367177ba3e.jpg">
 </p>
 
-## [Explanation Video](https://youtu.be/7ZFw2OHoFSc)
+## [Explanation Video](https://www.youtube.com/watch?v=KzkUP05Zyzk)
