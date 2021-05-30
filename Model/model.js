@@ -1,4 +1,3 @@
-const bodyParser = require("body-parser");
 const express = require("express");
 const TimeSeries = require('./timeseries');
 const simpleAnomalyDetector = require('./SimpleAnomalyDetector.js');
@@ -7,9 +6,8 @@ const csvParser = require("./csvParser");
 const app = express();
 const parseRequest = require('./parseRequest')
 
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
+app.use(express.json({limit: '50mb', extended: true}));
+app.use(express.urlencoded({limit: '50mb', extended: true}));
 
 app.use(express.static("public"));
 
