@@ -48,7 +48,7 @@ in case you dragged the wrong file, click on the little cube inside the file box
 * File Deletion: The website supports deleting a file and uploading a new one (by ticking the little box above the file's name)
 * Algorithm Selection: The website supports selecting an anomaly detection algorithm (Hybrid/Regular)
 * Visual Display: The website supports a graphical display of the anomalies detected by the server 
-<img src = "https://user-images.githubusercontent.com/58342591/120106146-9e338900-c164-11eb-8985-199cc17d780f.jpg">
+<img src = "https://user-images.githubusercontent.com/58342591/120114187-a3093480-c186-11eb-8a49-7e20920e6e8d.jpg">
 
 ## Project Structure
 <p align="center">
