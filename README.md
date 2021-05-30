@@ -9,7 +9,7 @@ This website allows the user to upload two .csv files and detect anomalies in di
 
 ## Getting Started
 1. Install the prerequisites
-2. Clone the project: LIAM
+2. Clone the project: ```git clone https://github.com/Lkrule/Web-App.git```
 3. Install all the dependencies using one command in the project directory: ```npm install```
 4. Open CMD/BASH in the directory of the project and run ```nodemon model.js``` to run the server (on port 8080)
 5. Open CMD/BASH in the directory of the project and run ```npm start``` to run the website (on port 4200)
