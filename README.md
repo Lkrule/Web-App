@@ -1,6 +1,7 @@
 # Anomaly Detection WEB Application
 A WEB application that provides a friendly interface to detect anomalies in csv files.</br>
-This website allows the user to upload two .csv files and detect anomalies in different parameters of a flight.
+This website allows the user to upload two .csv files and detect anomalies in different parameters of a flight.</br>
+The server was written in JavaScript(Node.js) and the client was written mainly in TypeScript and a bit of HTML and CSS.
 
 ## Prerequisites
 * Node.js
@@ -24,7 +25,7 @@ As we can see above, the server gets a HTTP <b>POST</b> REQUEST and returns the 
 
 #### WEB App Usage
 <img src = "https://user-images.githubusercontent.com/58342591/120107463-c671b680-c169-11eb-9d32-042047e2b496.jpg">
-As we can see above, the server returns a <b>JSON</b> format answer</br>
+As we can see above, the server returns a <b>JSON</b> format answer.</br>
 
 ## Using The Website
 The way to use the website goes through several main steps:
