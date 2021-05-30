@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Model",
+    "\\View"
   ],
-  "SelectedNode": "\\Model",
+  "SelectedNode": "\\Model\\model.js",
   "PreviewInSolutionExplorer": false
 }
