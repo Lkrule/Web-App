@@ -9,14 +9,14 @@ The server was written in JavaScript(Node.js) and the client was written mainly 
 * [Download](https://phoenixnap.com/kb/install-node-js-npm-on-windows) NPM
 
 ## Getting Started
-1.Install the prerequisites
-2.Clone the project: ```git clone https://github.com/Lkrule/Web-App.git```
-3.Install all the dependencies using one command in the project directory: ```npm install```
-4.Open CMD/BASH in the directory of the project and run ```nodemon model.js``` to run the server (on port 8080)
-5.Open CMD/BASH in the directory of the project and run ```npm start``` to run the website (on port 4200)
-6.Upload ```trainFile.csv``` and ```testFile.csv``` to the website
-7.Choose an anomaly detection algorithm
-8.Press ```Upload``` and then select a graph
+1. Install the prerequisites
+2. Clone the project: ```git clone https://github.com/Lkrule/Web-App.git```
+3. Install all the dependencies using one command in the project directory: ```npm install```
+4. Open CMD/BASH in the directory of the project and run ```nodemon model.js``` to run the server (on port 8080)
+5. Open CMD/BASH in the directory of the project and run ```npm start``` to run the website (on port 4200)
+6. Upload ```trainFile.csv``` and ```testFile.csv``` to the website
+7. Choose an anomaly detection algorithm
+8. Press ```Upload``` and then select a graph
 
 ### Using The Server
 #### HTTP POST REQUEST Usage
